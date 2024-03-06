@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:todo_list/views/widgets/group/group_widget.dart';
 import 'package:todo_list/views/widgets/group_form/group_form_widget.dart';
+import 'package:todo_list/views/widgets/main_form/main_form_widget.dart';
 import 'package:todo_list/views/widgets/task/task_widget.dart';
 import 'package:todo_list/views/widgets/task_form/task_form_widget.dart';
 
@@ -14,7 +14,7 @@ abstract class MainNavigationRouteNames {
 class MainNavigation {
   final initialRoute = MainNavigationRouteNames.groups;
   final routes = <String, Widget Function(BuildContext)>{
-    MainNavigationRouteNames.groups: (context) => const GroupWidget(),
+    MainNavigationRouteNames.groups: (context) => const MainFormWidget(),
     MainNavigationRouteNames.groupsFrom: (context) => const GroupFormWidget(),
   };
 

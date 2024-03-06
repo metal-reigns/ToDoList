@@ -31,7 +31,7 @@ class _TaskFormWidgetState extends State<TaskFormWidget> {
 }
 
 class _TextFormWidgetBody extends StatelessWidget {
-  const _TextFormWidgetBody({super.key});
+  const _TextFormWidgetBody();
 
   @override
   Widget build(BuildContext context) {
@@ -60,7 +60,7 @@ class _TextFormWidgetBody extends StatelessWidget {
 }
 
 class _TaskTextWidget extends StatelessWidget {
-  const _TaskTextWidget({super.key});
+  const _TaskTextWidget();
 
   @override
   Widget build(BuildContext context) {

@@ -58,7 +58,7 @@ class TasksWidgetBody extends StatelessWidget {
 }
 
 class _TaskListWidget extends StatelessWidget {
-  const _TaskListWidget({super.key});
+  const _TaskListWidget();
 
   @override
   Widget build(BuildContext context) {
@@ -79,7 +79,6 @@ class _TaskListWidget extends StatelessWidget {
 class _TaskListRowWidget extends StatelessWidget {
   final int indexInList;
   const _TaskListRowWidget({
-    super.key,
     required this.indexInList,
   });
 

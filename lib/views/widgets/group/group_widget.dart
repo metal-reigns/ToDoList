@@ -28,7 +28,7 @@ class _GroupWidgetState extends State<GroupWidget> {
 }
 
 class _GroupWidgetBody extends StatelessWidget {
-  const _GroupWidgetBody({super.key});
+  const _GroupWidgetBody();
 
   @override
   Widget build(BuildContext context) {
@@ -47,7 +47,7 @@ class _GroupWidgetBody extends StatelessWidget {
 }
 
 class _GroupListWidget extends StatelessWidget {
-  const _GroupListWidget({super.key});
+  const _GroupListWidget();
 
   @override
   Widget build(BuildContext context) {
@@ -68,7 +68,6 @@ class _GroupListWidget extends StatelessWidget {
 class _GroupListRowWidget extends StatelessWidget {
   final int indexInList;
   const _GroupListRowWidget({
-    super.key,
     required this.indexInList,
   });
 

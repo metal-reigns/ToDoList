@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo_list/constants/colors.dart';
 import 'package:todo_list/views/navigation/main_navigation.dart';
 
 class MyApp extends StatelessWidget {
@@ -14,6 +15,8 @@ class MyApp extends StatelessWidget {
       initialRoute: mainNavigation.initialRoute,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        primaryColor: AppColors.clrPrimary,
+        scaffoldBackgroundColor: AppColors.clrPrimary,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
